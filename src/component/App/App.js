@@ -1,13 +1,14 @@
+import React from 'react';
 import './App.css';
 import ButtonPanel from '../buttonPanel';
 import Display from '../Display';
 
 function App() {
   return (
-    <div className="App">
-      <ButtonPanel />
+    <React.Fragment className="App">
       <Display />
-    </div>
+      <ButtonPanel />
+    </React.Fragment>
   );
 }
 
