@@ -1,6 +1,6 @@
 import './App.css';
-import ButtonPanel from './component/buttonPanel/index';
-import Display from './component/Display/index';
+import ButtonPanel from '../buttonPanel';
+import Display from '../Display';
 
 function App() {
   return (
