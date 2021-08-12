@@ -1,7 +1,8 @@
-.btn {
-  width: 100%;
-  height: 40px;
-  border: 1px solid #000;
+.group {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
 }
 
 .bggray {
