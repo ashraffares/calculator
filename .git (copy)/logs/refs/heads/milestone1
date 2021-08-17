@@ -1,8 +1,0 @@
-0000000000000000000000000000000000000000 df021bdaea837a3995cbfde44d30fcfd6a4603dc ashraffares <ashraffares090@gmail.com> 1628664188 +0200	branch: Created from origin/milestone1
-df021bdaea837a3995cbfde44d30fcfd6a4603dc 6fd64db24727d299897d53f1d82dae16d09717cb ashraffares <ashraffares090@gmail.com> 1628664257 +0200	commit: create a new react app fixing config files
-6fd64db24727d299897d53f1d82dae16d09717cb c189066c4b733260afcd40012d6f2206e6d10105 ashraffares <ashraffares090@gmail.com> 1628681437 +0200	commit: Update node and npm and run npm i
-c189066c4b733260afcd40012d6f2206e6d10105 5eca5e92a7299426285dc4025b13278215a05217 ashraffares <ashraffares090@gmail.com> 1628681680 +0200	commit: Update README.md file
-5eca5e92a7299426285dc4025b13278215a05217 0670af6fe350b35005a76f76c465be8e9c97e474 ashraffares <ashraffares090@gmail.com> 1628685062 +0200	commit: Add big.js and prop-types dependancy
-0670af6fe350b35005a76f76c465be8e9c97e474 c142234cb51325e3c9d0c9502ca5e8a9c052c127 ashraffares <ashraffares090@gmail.com> 1628685121 +0200	commit: Add correct linke for issue page
-c142234cb51325e3c9d0c9502ca5e8a9c052c127 049ab6eb77c29552e750acef214fb009b7a7d64f ashraffares <ashraffares090@gmail.com> 1628685456 +0200	commit (merge): Update README.md
-049ab6eb77c29552e750acef214fb009b7a7d64f 719a1bf0e5bf2ba0fdba85c55542c8b536060c04 ashraffares <ashraffares090@gmail.com> 1628685694 +0200	commit: Add live link
