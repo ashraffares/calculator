@@ -1,6 +1,6 @@
 import operate from './operate';
 
-const calculate = () => {
+const calculate = (obj , btnName) => {
 
 }
 
