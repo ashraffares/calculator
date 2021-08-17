@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 719a1bf0e5bf2ba0fdba85c55542c8b536060c04 ashraffares <ashraffares090@gmail.com> 1628688484 +0200	branch: Created from HEAD
+719a1bf0e5bf2ba0fdba85c55542c8b536060c04 8db14855a7cb41ce645137dbeee9f019b1df3fe9 ashraffares <ashraffares090@gmail.com> 1628698163 +0200	commit: Add button and display component
+8db14855a7cb41ce645137dbeee9f019b1df3fe9 c7d28893488c7e7300e9b88d0246b17f92b8f5cc ashraffares <ashraffares090@gmail.com> 1628763197 +0200	commit: add buttonPanel
+c7d28893488c7e7300e9b88d0246b17f92b8f5cc 8061ddcb4d97009d9e06b160fccdf7427cdf9689 ashraffares <ashraffares090@gmail.com> 1628767812 +0200	commit: Add styleing
+8061ddcb4d97009d9e06b160fccdf7427cdf9689 c72a06beccbac06a5f95830b70302e6a15710058 ashraffares <ashraffares090@gmail.com> 1628768928 +0200	commit: Fix importing error

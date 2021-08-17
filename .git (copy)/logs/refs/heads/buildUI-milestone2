@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 87f2d2348a9011024ce6441dd039dbb567bc6d19 ashraffares <ashraffares090@gmail.com> 1628772496 +0200	branch: Created from HEAD
+87f2d2348a9011024ce6441dd039dbb567bc6d19 e192972c7bfbea7e7dd2b3e86879cc94d95cd0d2 ashraffares <ashraffares090@gmail.com> 1628773205 +0200	commit: Add button component
+e192972c7bfbea7e7dd2b3e86879cc94d95cd0d2 4c2ff98094a109b5ccbdb8cb1f3cd91fcad29059 ashraffares <ashraffares090@gmail.com> 1628773347 +0200	commit: Add display component
+4c2ff98094a109b5ccbdb8cb1f3cd91fcad29059 976b3b07c164dbd8fbe79d7b0a45709b419164a1 ashraffares <ashraffares090@gmail.com> 1628773443 +0200	commit: Add buttonPanel component
+976b3b07c164dbd8fbe79d7b0a45709b419164a1 099ed00d6153d2907898440a028c07ad8714811f ashraffares <ashraffares090@gmail.com> 1628773474 +0200	commit: Update App.js
+099ed00d6153d2907898440a028c07ad8714811f 574b5de9f101f52b3422b923aebf36a34b3c8432 ashraffares <ashraffares090@gmail.com> 1628773636 +0200	commit: Add App component
+574b5de9f101f52b3422b923aebf36a34b3c8432 0dbc4154917a482c0be3a45d27fd062a76f062b1 ashraffares <ashraffares090@gmail.com> 1628773899 +0200	commit: Fix file path error and fix style error add newline
+0dbc4154917a482c0be3a45d27fd062a76f062b1 6d498097d3d607fdcd60f038f374291f02c10537 ashraffares <ashraffares090@gmail.com> 1628777095 +0200	commit: Add React.Fragment and change the display order of Display and ButtonPanel

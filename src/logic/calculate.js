@@ -1,8 +1,6 @@
 import operate from './operate';
 
 const calculate = (obj, btnName) => {
-  let { total, next, operation } = obj;
-
   if (btnName === 'AC') {
     return {
       total: '',
@@ -12,23 +10,37 @@ const calculate = (obj, btnName) => {
   }
 
   if (btnName === '+/-') {
-    total = (obj.total * (-1)).toString();
-    next = (obj.next * (-1)).toString();
-    return {
-      total,
-      next,
-      operation,
-    };
+    if (obj.next) {
+      return { next: (-1 * parseFloat(obj.next)).toString() };
+    }
+    if (obj.total) {
+      return { total: (-1 * parseFloat(obj.total)).toString() };
+    }
+    return {};
   }
 
   if (obj.operation) {
+    if (obj.total && !(obj.next)) {
+      return {
+        operation: btnName,
+      };
+    }
     return {
-      total: operate(total, next, operation),
+      total: operate(obj.total, obj.next, obj.operation),
       next: null,
       operation: btnName,
     };
   }
-  return obj;
+
+  if (!obj.next) {
+    return { operation: btnName };
+  }
+
+  return {
+    total: obj.next,
+    next: null,
+    operation: btnName,
+  };
 };
 
 export default calculate;

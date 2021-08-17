@@ -1,0 +1,50 @@
+0000000000000000000000000000000000000000 df021bdaea837a3995cbfde44d30fcfd6a4603dc ashraffares <ashraffares090@gmail.com> 1628664009 +0200	clone: from https://github.com/ashraffares/calculator.git
+df021bdaea837a3995cbfde44d30fcfd6a4603dc df021bdaea837a3995cbfde44d30fcfd6a4603dc ashraffares <ashraffares090@gmail.com> 1628664188 +0200	checkout: moving from main to milestone1
+df021bdaea837a3995cbfde44d30fcfd6a4603dc 6fd64db24727d299897d53f1d82dae16d09717cb ashraffares <ashraffares090@gmail.com> 1628664257 +0200	commit: create a new react app fixing config files
+6fd64db24727d299897d53f1d82dae16d09717cb c189066c4b733260afcd40012d6f2206e6d10105 ashraffares <ashraffares090@gmail.com> 1628681437 +0200	commit: Update node and npm and run npm i
+c189066c4b733260afcd40012d6f2206e6d10105 5eca5e92a7299426285dc4025b13278215a05217 ashraffares <ashraffares090@gmail.com> 1628681680 +0200	commit: Update README.md file
+5eca5e92a7299426285dc4025b13278215a05217 0670af6fe350b35005a76f76c465be8e9c97e474 ashraffares <ashraffares090@gmail.com> 1628685062 +0200	commit: Add big.js and prop-types dependancy
+0670af6fe350b35005a76f76c465be8e9c97e474 c142234cb51325e3c9d0c9502ca5e8a9c052c127 ashraffares <ashraffares090@gmail.com> 1628685121 +0200	commit: Add correct linke for issue page
+c142234cb51325e3c9d0c9502ca5e8a9c052c127 049ab6eb77c29552e750acef214fb009b7a7d64f ashraffares <ashraffares090@gmail.com> 1628685456 +0200	commit (merge): Update README.md
+049ab6eb77c29552e750acef214fb009b7a7d64f 719a1bf0e5bf2ba0fdba85c55542c8b536060c04 ashraffares <ashraffares090@gmail.com> 1628685694 +0200	commit: Add live link
+719a1bf0e5bf2ba0fdba85c55542c8b536060c04 719a1bf0e5bf2ba0fdba85c55542c8b536060c04 ashraffares <ashraffares090@gmail.com> 1628688484 +0200	checkout: moving from milestone1 to milestone2
+719a1bf0e5bf2ba0fdba85c55542c8b536060c04 8db14855a7cb41ce645137dbeee9f019b1df3fe9 ashraffares <ashraffares090@gmail.com> 1628698163 +0200	commit: Add button and display component
+8db14855a7cb41ce645137dbeee9f019b1df3fe9 c7d28893488c7e7300e9b88d0246b17f92b8f5cc ashraffares <ashraffares090@gmail.com> 1628763197 +0200	commit: add buttonPanel
+c7d28893488c7e7300e9b88d0246b17f92b8f5cc 8061ddcb4d97009d9e06b160fccdf7427cdf9689 ashraffares <ashraffares090@gmail.com> 1628767812 +0200	commit: Add styleing
+8061ddcb4d97009d9e06b160fccdf7427cdf9689 c72a06beccbac06a5f95830b70302e6a15710058 ashraffares <ashraffares090@gmail.com> 1628768928 +0200	commit: Fix importing error
+c72a06beccbac06a5f95830b70302e6a15710058 df021bdaea837a3995cbfde44d30fcfd6a4603dc ashraffares <ashraffares090@gmail.com> 1628772022 +0200	checkout: moving from milestone2 to development
+df021bdaea837a3995cbfde44d30fcfd6a4603dc df021bdaea837a3995cbfde44d30fcfd6a4603dc ashraffares <ashraffares090@gmail.com> 1628772366 +0200	checkout: moving from development to feature
+df021bdaea837a3995cbfde44d30fcfd6a4603dc df021bdaea837a3995cbfde44d30fcfd6a4603dc ashraffares <ashraffares090@gmail.com> 1628772388 +0200	checkout: moving from feature to feature
+df021bdaea837a3995cbfde44d30fcfd6a4603dc df021bdaea837a3995cbfde44d30fcfd6a4603dc ashraffares <ashraffares090@gmail.com> 1628772414 +0200	checkout: moving from feature to development
+df021bdaea837a3995cbfde44d30fcfd6a4603dc 87f2d2348a9011024ce6441dd039dbb567bc6d19 ashraffares <ashraffares090@gmail.com> 1628772425 +0200	pull origin development: Fast-forward
+87f2d2348a9011024ce6441dd039dbb567bc6d19 87f2d2348a9011024ce6441dd039dbb567bc6d19 ashraffares <ashraffares090@gmail.com> 1628772496 +0200	checkout: moving from development to buildUI-milestone2
+87f2d2348a9011024ce6441dd039dbb567bc6d19 e192972c7bfbea7e7dd2b3e86879cc94d95cd0d2 ashraffares <ashraffares090@gmail.com> 1628773205 +0200	commit: Add button component
+e192972c7bfbea7e7dd2b3e86879cc94d95cd0d2 4c2ff98094a109b5ccbdb8cb1f3cd91fcad29059 ashraffares <ashraffares090@gmail.com> 1628773347 +0200	commit: Add display component
+4c2ff98094a109b5ccbdb8cb1f3cd91fcad29059 976b3b07c164dbd8fbe79d7b0a45709b419164a1 ashraffares <ashraffares090@gmail.com> 1628773443 +0200	commit: Add buttonPanel component
+976b3b07c164dbd8fbe79d7b0a45709b419164a1 099ed00d6153d2907898440a028c07ad8714811f ashraffares <ashraffares090@gmail.com> 1628773474 +0200	commit: Update App.js
+099ed00d6153d2907898440a028c07ad8714811f 574b5de9f101f52b3422b923aebf36a34b3c8432 ashraffares <ashraffares090@gmail.com> 1628773636 +0200	commit: Add App component
+574b5de9f101f52b3422b923aebf36a34b3c8432 0dbc4154917a482c0be3a45d27fd062a76f062b1 ashraffares <ashraffares090@gmail.com> 1628773899 +0200	commit: Fix file path error and fix style error add newline
+0dbc4154917a482c0be3a45d27fd062a76f062b1 6d498097d3d607fdcd60f038f374291f02c10537 ashraffares <ashraffares090@gmail.com> 1628777095 +0200	commit: Add React.Fragment and change the display order of Display and ButtonPanel
+6d498097d3d607fdcd60f038f374291f02c10537 6d498097d3d607fdcd60f038f374291f02c10537 ashraffares <ashraffares090@gmail.com> 1629186071 +0200	checkout: moving from buildUI-milestone2 to logic-milestone4
+6d498097d3d607fdcd60f038f374291f02c10537 fcb14241ebfa77d479fe4a10f617c7896614ed9a ashraffares <ashraffares090@gmail.com> 1629186146 +0200	commit: create logic folder and add calculator.js and operate.js inside it
+fcb14241ebfa77d479fe4a10f617c7896614ed9a 87f2d2348a9011024ce6441dd039dbb567bc6d19 ashraffares <ashraffares090@gmail.com> 1629188310 +0200	checkout: moving from logic-milestone4 to development
+87f2d2348a9011024ce6441dd039dbb567bc6d19 87f2d2348a9011024ce6441dd039dbb567bc6d19 ashraffares <ashraffares090@gmail.com> 1629188369 +0200	checkout: moving from development to logic-milestone4
+87f2d2348a9011024ce6441dd039dbb567bc6d19 87f2d2348a9011024ce6441dd039dbb567bc6d19 ashraffares <ashraffares090@gmail.com> 1629188389 +0200	checkout: moving from logic-milestone4 to development
+87f2d2348a9011024ce6441dd039dbb567bc6d19 869e2e2903b30d204cffa50f40e81901589e53de ashraffares <ashraffares090@gmail.com> 1629188399 +0200	pull origin development: Fast-forward
+869e2e2903b30d204cffa50f40e81901589e53de 869e2e2903b30d204cffa50f40e81901589e53de ashraffares <ashraffares090@gmail.com> 1629188418 +0200	checkout: moving from development to logic-milestone4
+869e2e2903b30d204cffa50f40e81901589e53de 8690f6053d8a94736e7d71fd8b83512933135289 ashraffares <ashraffares090@gmail.com> 1629189353 +0200	commit: Add logic folder and Add calculate.js-operate.js inside logic folder
+8690f6053d8a94736e7d71fd8b83512933135289 f0490cf34f2fd7ac3081ceafd2c019bd7c6b7735 ashraffares <ashraffares090@gmail.com> 1629189560 +0200	commit: Import Big.js
+f0490cf34f2fd7ac3081ceafd2c019bd7c6b7735 0d0960acf0419f48f623252667b616289ed0d196 ashraffares <ashraffares090@gmail.com> 1629189616 +0200	commit: Implement default function named operate
+0d0960acf0419f48f623252667b616289ed0d196 eb955a59e4197f8fb374847d042a036b7806a874 ashraffares <ashraffares090@gmail.com> 1629189685 +0200	commit: Accept numberOne-numberTwo-operation as arguments
+eb955a59e4197f8fb374847d042a036b7806a874 152b7cb6c7b834446cef59bdf3f7ec59ef5a627b ashraffares <ashraffares090@gmail.com> 1629191266 +0200	commit: Add basic operation to operate method
+152b7cb6c7b834446cef59bdf3f7ec59ef5a627b 33ec159d3e390e178cece21c00ac624296135a82 ashraffares <ashraffares090@gmail.com> 1629191486 +0200	commit: Import operate to do basic operation
+33ec159d3e390e178cece21c00ac624296135a82 e3edacbb7abc004d540836e5e1058acb4c6a258d ashraffares <ashraffares090@gmail.com> 1629191542 +0200	commit: Add default method calculate
+e3edacbb7abc004d540836e5e1058acb4c6a258d b312012107212510a5243379e5e3bf98b9944ec9 ashraffares <ashraffares090@gmail.com> 1629191655 +0200	commit: Accept two arguments obj and btnName in calculate method
+b312012107212510a5243379e5e3bf98b9944ec9 a664b53ba63aef817203ad5a8085733668f24fba ashraffares <ashraffares090@gmail.com> 1629199908 +0200	commit: use operate to preform basic calculation
+a664b53ba63aef817203ad5a8085733668f24fba f7eef8682a3bcb04b5d4195128e7fb884b0addd8 ashraffares <ashraffares090@gmail.com> 1629200527 +0200	commit: Import calculate in App.js
+f7eef8682a3bcb04b5d4195128e7fb884b0addd8 5474f0175586cb871935b07bf4f6cc441523d2c7 ashraffares <ashraffares090@gmail.com> 1629208924 +0200	commit: Add another case
+5474f0175586cb871935b07bf4f6cc441523d2c7 869e2e2903b30d204cffa50f40e81901589e53de ashraffares <ashraffares090@gmail.com> 1629208932 +0200	checkout: moving from logic-milestone4 to development
+869e2e2903b30d204cffa50f40e81901589e53de 869e2e2903b30d204cffa50f40e81901589e53de ashraffares <ashraffares090@gmail.com> 1629208948 +0200	checkout: moving from development to shwetaBranch
+869e2e2903b30d204cffa50f40e81901589e53de 5474f0175586cb871935b07bf4f6cc441523d2c7 ashraffares <ashraffares090@gmail.com> 1629209043 +0200	checkout: moving from shwetaBranch to logic-milestone4
+5474f0175586cb871935b07bf4f6cc441523d2c7 5474f0175586cb871935b07bf4f6cc441523d2c7 ashraffares <ashraffares090@gmail.com> 1629209060 +0200	checkout: moving from logic-milestone4 to logic-milestone4
+5474f0175586cb871935b07bf4f6cc441523d2c7 5474f0175586cb871935b07bf4f6cc441523d2c7 ashraffares <ashraffares090@gmail.com> 1629209069 +0200	checkout: moving from logic-milestone4 to logic-milestone4
