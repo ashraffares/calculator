@@ -3,7 +3,7 @@ import './App.css';
 import ButtonPanel from '../buttonPanel';
 import Display from '../Display';
 // eslint-disable-next-line no-unused-vars
-import calculate from '../../logic/calculate';
+// import calculate from '../../logic/calculate';
 
 function App() {
   return (
