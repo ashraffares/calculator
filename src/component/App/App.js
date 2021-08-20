@@ -14,12 +14,19 @@ class App extends React.Component {
       next: null,
       operation: null,
     };
+
+    this.handleClick = this.handleClick.bind(this);
+    this.handleClick = (buttonName) => {
+      // eslint-disable-next-line react/no-access-state-in-setstate
+      const res = calculate(this.state, buttonName);
+      this.setState({ total: res.total, next: res.next, operation: res.operation });
+    };
   }
 
   render() {
     return (
       <>
-        <Display />
+        <Display/>
         <ButtonPanel />
       </>
     );
