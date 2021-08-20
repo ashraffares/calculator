@@ -26,7 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Display/>
+        <Display result={this.total} />
         <ButtonPanel />
       </>
     );
