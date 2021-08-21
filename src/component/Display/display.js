@@ -1,13 +1,20 @@
 import propTypes from 'prop-types';
+import styles from './display.module.css';
 
-const Display = ({ result }) => <h1>{result}</h1>;
+const Display = ({ total, next }) => (
+  <h1 className={styles.h1}>
+    {next || total || '0'}
+  </h1>
+);
 
 Display.propTypes = {
-  result: propTypes.string,
+  total: propTypes.string,
+  next: propTypes.string,
 };
 
 Display.defaultProps = {
-  result: '0',
+  total: '0',
+  next: '0',
 };
 
 export default Display;

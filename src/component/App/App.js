@@ -1,8 +1,8 @@
+/* eslint-disable react/no-unused-state */
 import React from 'react';
 import './App.css';
 import ButtonPanel from '../buttonPanel';
 import Display from '../Display';
-// eslint-disable-next-line no-unused-vars
 import calculate from '../../logic/calculate';
 
 class App extends React.Component {
@@ -14,19 +14,17 @@ class App extends React.Component {
       next: null,
       operation: null,
     };
-
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClick = (buttonName) => {
-      // eslint-disable-next-line react/no-access-state-in-setstate
-      const res = calculate(this.state, buttonName);
-      this.setState({ total: res.total, next: res.next, operation: res.operation });
-    };
   }
 
+  handleClick = (buttonName) => {
+    this.setState((prevState) => calculate(prevState, buttonName));
+  };
+
   render() {
+    const { total, next } = this.state;
     return (
       <>
-        <Display result={this.total} />
+        <Display total={total} next={next} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );

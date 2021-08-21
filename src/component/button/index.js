@@ -1,3 +1,3 @@
-import Button from 'button.js';
+import Button from './button';
 
 export default Button;
