@@ -1,17 +1,34 @@
+/* eslint-disable react/no-unused-state */
 import React from 'react';
 import './App.css';
 import ButtonPanel from '../buttonPanel';
 import Display from '../Display';
-// eslint-disable-next-line no-unused-vars
 import calculate from '../../logic/calculate';
 
-function App() {
-  return (
-    <React.Fragment className="App">
-      <Display />
-      <ButtonPanel />
-    </React.Fragment>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+
+  handleClick = (buttonName) => {
+    this.setState((prevState) => calculate(prevState, buttonName));
+  };
+
+  render() {
+    const { total, next } = this.state;
+    return (
+      <>
+        <Display total={total} next={next} />
+        <ButtonPanel clickHandler={this.handleClick} />
+      </>
+    );
+  }
 }
 
 export default App;

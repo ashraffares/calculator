@@ -1,21 +1,25 @@
 import Big from 'big.js';
 
-const operate = (numberOne, numberTwo, operation) => {
-  const ONE = Big(numberOne);
-  const TWO = Big(numberTwo);
-
+export default function operate(numberOne, numberTwo, operation) {
+  const one = Big(numberOne);
+  const two = Big(numberTwo);
   if (operation === '+') {
-    return ONE.plus(TWO).toString();
-  } if (operation === '-') {
-    return ONE.minus(TWO).toString();
-  } if (operation === '÷') {
-    return ONE.div(TWO).toString();
-  } if (operation === 'x') {
-    return ONE.times(TWO).toString;
-  } if (operation === '%') {
-    return ONE.mod(TWO).toString();
+    return one.plus(two).toString();
   }
-  throw Error(`failing operation: ${operation}`);
-};
-
-export default operate;
+  if (operation === '-') {
+    return one.minus(two).toString();
+  }
+  if (operation === 'x') {
+    return one.times(two).toString();
+  }
+  if (operation === '÷') {
+    if (two.toString() === '0') {
+      return 'Error';
+    }
+    return one.div(two).toString();
+  }
+  if (operation === '%') {
+    return one.mod(two).toString();
+  }
+  throw Error(`Unknown operation '${operation}'`);
+}
