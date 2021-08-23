@@ -61,10 +61,7 @@ const calculate = (total, setTotal, next, setNext, operation, setOperation, butt
         setOperation('');
         return true;
       }
-      console.log(total, next, operation);
       if (total !== null) {
-        console.log('------------------total-------------');
-        console.log(total);
         setTotal(operate(total, next, operation));
         setNext(null);
         setOperation('');
