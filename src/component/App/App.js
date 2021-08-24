@@ -24,8 +24,13 @@ const App = () => {
         <Route path="/quate" component={Quate} />
         <Route path="/calculator">
           <Navbar />
-          <Display total={total} next={next} />
-          <ButtonPanel clickHandler={handleClick} />
+          <div style={{ display: 'flex' }}>
+            <h1> Let’s do some math! </h1>
+            <div>
+              <Display total={total} next={next} />
+              <ButtonPanel clickHandler={handleClick} />
+            </div>
+          </div>
         </Route>
       </Switch>
     </main>
