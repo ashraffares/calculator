@@ -1,3 +1,15 @@
-.h1 {
-  text-align: center;
+.Display {
+  position: relative;
+  display: flex;
+  background-color: #858693;
+  height: 100px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.total {
+  position: absolute;
+  right: 10px;
+  align-self: flex-end;
 }

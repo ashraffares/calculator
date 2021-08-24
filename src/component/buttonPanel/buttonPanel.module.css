@@ -1,6 +1,4 @@
 .group {
-  margin: auto;
   display: flex;
-  flex-direction: row;
-  width: 70%;
+  height: 100px;
 }

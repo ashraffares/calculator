@@ -1,0 +1,21 @@
+.btn {
+  border: 1px solid #d1d1d1;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.NormalSize {
+  width: 25%;
+}
+
+.DoupleSize {
+  width: 50%;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.gray {
+  background-color: #e0e0e0;
+}
