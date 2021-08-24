@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/quate" component={Quate} />
         <Route path="/calculator">
           <Navbar />
-          <div style={{ display: 'flex' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <h1> Let’s do some math! </h1>
             <div>
               <Display total={total} next={next} />
