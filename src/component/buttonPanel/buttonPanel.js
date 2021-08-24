@@ -4,7 +4,7 @@ import Button from '../button';
 import styles from './buttonPanel.module.css';
 
 const ButtonPanel = ({ clickHandler }) => (
-  <div className="mainCalc">
+  <div className={styles.mainCalc}>
     <div className={styles.group}>
       <Button handleClick={clickHandler} color="gray" name="AC" />
       <Button handleClick={clickHandler} color="gray" name="+/-" />

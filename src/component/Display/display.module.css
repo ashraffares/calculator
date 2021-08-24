@@ -1,4 +1,5 @@
 .Display {
+  width: 700px;
   position: relative;
   display: flex;
   background-color: #858693;
