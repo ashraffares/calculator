@@ -2,7 +2,7 @@ import propTypes from 'prop-types';
 import styles from './display.module.css';
 
 const Display = ({ total, next }) => (
-  <h1 className={styles.h1}>
+  <h1 className={styles.Display}>
     {next || total || '0'}
   </h1>
 );

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import ButtonPanel from '../buttonPanel';
 import Display from '../Display';
 import calculate from '../../logic/calculate';
+import styles from './App.module.css';
 
 const App = () => {
   const [total, setTotal] = useState(null);
@@ -13,10 +14,10 @@ const App = () => {
   };
 
   return (
-    <>
+    <div className={styles.App}>
       <Display total={total} next={next} />
       <ButtonPanel clickHandler={handleClick} />
-    </>
+    </div>
   );
 };
 
