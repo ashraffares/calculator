@@ -1,3 +1,7 @@
+.mainCalc {
+  width: 700px;
+}
+
 .group {
   display: flex;
   height: 100px;
