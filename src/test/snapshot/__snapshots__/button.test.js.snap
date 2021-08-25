@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Butt component matches the snapshot 1`] = `
+exports[`Button component matches the snapshot 1`] = `
 <button
   className="btn orange NormalSize"
   onClick={[Function]}
@@ -8,12 +8,4 @@ exports[`Butt component matches the snapshot 1`] = `
 >
   1
 </button>
-`;
-
-exports[`ButtonPanel component matches the snapshot 1`] = `
-<button
-  className="btn orange NormalSize"
-  onClick={[Function]}
-  type="button"
-/>
 `;
