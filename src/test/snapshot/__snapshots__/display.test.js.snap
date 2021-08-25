@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component matches the snapshot 1`] = `
+<h1
+  className="Display"
+>
+  <span
+    className="total"
+  >
+    0
+  </span>
+</h1>
+`;
