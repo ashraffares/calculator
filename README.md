@@ -9,7 +9,7 @@
 - React
 
 ## Live link
- [Calculator App](https://calculator090.herokuapp.com/).
+ [Calculator App](https://competent-noether-29f506.netlify.app/).
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps on the command line.
